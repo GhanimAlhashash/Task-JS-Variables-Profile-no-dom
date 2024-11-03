@@ -10,6 +10,11 @@
  */
 
 // Part 1 answer 👇🏻 ...
+const fullName = "Ghanim Alhashash";
+const yearOfBirth = 2001;
+const hobby = "art";
+const funFact = "Im crazy";
+const image = "i.imgur.com/jwp9SpW.jpeg";
 
 /**
  * Part 2: String Interpolation
@@ -20,13 +25,18 @@
  * 2. ageString   -> assign it to: "I am {YOUR_AGE}"", and make sure you calculate your age from your year of birth
  * 3. hobbyString         -> assign it to: "My hobby is {YOUR_HOBBY}""
  *
+ *
  * Uncomment the following lines and start interpolating.
  * You can uncomment a line by removing the // at the start
  */
 
-// const fullNameString = `My name is ${}`;
-// const ageString =
-// const hobbyString =
+const fullNameString = `My name is ${fullName}`;
+const ageString = `I am ${2024 - yearOfBirth}`;
+const hobbyString = `My hobby is ${hobby}`;
+
+console.log(`${fullNameString}`);
+console.log(`${ageString}`);
+console.log(`${hobbyString}`);
 
 /**
  * Part 3: Re-assignment
@@ -36,30 +46,34 @@
 let stars = 0;
 
 function incrementBy1() {
-  // Increment stars by 1 👇🏻
+  stars = stars + 1;
+  console.log(`${stars}`);
 }
 function decrementBy1() {
-  // decrement stars by 1 👇🏻
+  stars = stars - 1;
+  console.log(`${stars}`);
 }
 
 function incrementBy2() {
-  // Increment stars by 2 👇🏻
+  stars = stars + 2;
+  console.log(`${stars}`);
 }
 function decrementBy2() {
-  // decrement stars by 2 👇🏻
+  stars = stars - 2;
+  console.log(`${stars}`);
 }
 
 // TODO: Uncomment these variables as you work on them
 // Make sure they're all uncommented before you push your solution!
 module.exports = {
-  // fullName,
-  // yearOfBirth,
-  // hobby,
-  // funFact,
-  // image,
-  // fullNameString,
-  // ageString,
-  // hobbyString,
+  fullName,
+  yearOfBirth,
+  hobby,
+  funFact,
+  image,
+  fullNameString,
+  ageString,
+  hobbyString,
   incrementBy1,
   incrementBy2,
   decrementBy1,

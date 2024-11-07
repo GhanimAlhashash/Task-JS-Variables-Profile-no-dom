@@ -20,7 +20,7 @@ const image = "i.imgur.com/jwp9SpW.jpeg";
  * Part 2: String Interpolation
  * Create the following new variables that interpolate
  * the variables defined above into strings.
- *
+ *hi
  * 1. fullNameString      -> assign it to: "My name is {fullName}""
  * 2. ageString   -> assign it to: "I am {YOUR_AGE}"", and make sure you calculate your age from your year of birth
  * 3. hobbyString         -> assign it to: "My hobby is {YOUR_HOBBY}""
